@@ -25,6 +25,14 @@ nav{
     box-shadow: 0 5px 8px 0 rgba(0,0,0,.4)
 }
 
+h2{
+    padding-top: 250px;
+    text-align: center;
+    color: #2563EB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
 .logo{
     color: rgb(247, 247, 247);
     text-transform: uppercase;
@@ -48,7 +56,7 @@ nav{
     font-weight: 600;
 }
 
-.nav-links li {
+.nav-links li{
     list-style: none;
 }
 
@@ -74,10 +82,26 @@ nav{
     border-radius: 25px;
 }
 
-.container{
-    max-width: 1170px;
-    margin:auto;
+.lists{
+    padding-top: 25%;
+    padding-bottom: 100px;
+    padding-left: 30px;
 }
+
+.list{
+    padding-top: 15px;
+    list-style: none;
+    position: relative;
+}
+
+.list a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -86,14 +110,6 @@ ul{
     list-style: none;
 }
 
-.center {
-    position: relative;
-    margin-top: 20%;
-    color: #2563EB;
-    font-weight: 600;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-}
 
 @media screen and (max-width:1024px) {
     .nav-links{
@@ -101,17 +117,6 @@ ul{
     }
 }
 
-@media screen and (max-width:767px) {
-    .footer-col{
-        width: 50%;
-        margin-bottom: 30px;
-    }
-}
-@media screen and (max-width:574px) {
-    .footer-col{
-        width: 100%;
-    }
-}
 
 @media screen and (max-width:1024px) {
     body{
