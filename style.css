@@ -79,6 +79,7 @@ h2{
     letter-spacing: 2px;
     font-weight: 450;
     font-size: 14px;
+    transition: all 0.2s ease 0s;
 }
 
 .nav-links a:hover{
