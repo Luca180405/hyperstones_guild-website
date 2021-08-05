@@ -12,6 +12,11 @@ html, body{
     min-height: 100%;
 }
 
+#links {
+   color: white;
+   text-decoration: none;
+}
+
 #socials {
    text-decoration: none;
 }
