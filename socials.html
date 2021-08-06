@@ -6,6 +6,40 @@
     <link rel="icon" href="img/stone_gif_bild.gif">
     <link rel="stylesheet" href="style.css">
 
+    <style>
+        #bg1{
+            height: 1100px;
+        	background-image: linear-gradient(160deg, orange 500px, red);
+        }
+
+        #imagett{
+            margin-top: 330px;
+            height: auto;
+            width: 300px;
+        }
+
+        #imageig{
+            height: auto;
+            width: 140px;
+        }
+
+        #socials{
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+        margin-bottom: 20px;
+        width: 50%;
+        }
+    </style>
+
     <title>HyperStones Guild - Socials</title>
 </head>
 <body>
@@ -41,11 +75,11 @@
     </nav>
 
 
-    <div id="bg">
-        <section>
-            <a href="https://www.instagram.com/p/CPWUsGkjAvu/?utm_source=ig_web_copy_link" id="socials">Insta</a>
-            <a href="http://www.twitch.tv/stonekinghd" id="socials">Twitch</a>
-        </section>
+    <div id="bg1">
+        <div id="socials">
+            <a href="https://www.instagram.com/p/CPWUsGkjAvu/?utm_source=ig_web_copy_link" id="social"><img src="img/Instagram_Glyph_Gradient_RGB.png" alt="" id="imageig" class="center"></a>
+            <a href="http://www.twitch.tv/stonekinghd" id="social"><img src="img/Twitch_UnextrudedWordmarkBlackOps.png" alt="" id="imagett" class="center"></a>
+        </div>
     </div>
 
     <script src="app.js"></script>
